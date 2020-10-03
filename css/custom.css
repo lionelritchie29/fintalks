@@ -1,0 +1,212 @@
+/* ubuntu-regular - latin */
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/fonts/ubuntu-v14-latin-regular.woff2") format("woff2");
+}
+/* ubuntu-500 - latin */
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/assets/fonts/ubuntu-v14-latin-500.eot"); /* IE9 Compat Modes */
+  src: url("/assets/fonts/ubuntu-v14-latin-500.woff2") format("woff2");
+}
+/* ubuntu-700 - latin */
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/assets/fonts/ubuntu-v14-latin-700.woff2") format("woff2");
+}
+
+:root {
+  --primary-color: #0f4c75;
+  --primary-color-light: #bbe1fa;
+  --primary-color-dark: #1b262c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+.bg-primary-light {
+  background-color: var(--primary-color-light) !important;
+}
+
+.bg-primary-dark {
+  background-color: var(--primary-color-dark) !important;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+/* nav */
+.logo {
+  vertical-align: middle;
+}
+
+/* home */
+.no-curve {
+  height: 3rem;
+}
+
+.curved {
+  width: 100%;
+  height: 5rem;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.service-curved {
+  margin-bottom: -2.5rem;
+  position: relative;
+}
+
+.heading-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+}
+
+.why-us {
+  padding-top: 2rem;
+}
+
+.why-us-text {
+  font-size: 1.2rem;
+}
+
+.step {
+  margin-top: 4rem;
+}
+
+.step p {
+  margin-top: 0;
+}
+
+.step-section {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.step-image {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.step-number {
+  background-color: var(--primary-color);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.step-title {
+  font-size: 1.5rem;
+}
+
+.step-desc {
+  font-size: 1.2rem;
+}
+
+.service-section {
+  padding-top: 2rem;
+}
+
+.service-heading {
+  padding: 2rem 0;
+}
+
+.service-title {
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+/* about and contact and service*/
+.about-heading,
+.contact-heading,
+.service-page-heading {
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+.about-img,
+.contact-img,
+.service-page-img {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.about-desc,
+.contact-desc {
+  font-size: 1.2rem;
+}
+
+.contact-item h5 {
+  margin-bottom: 0;
+  margin-top: 2rem;
+}
+
+.contact-item p {
+  margin-top: 0;
+}
+
+.service-page-item {
+  vertical-align: middle;
+  display: flex;
+  padding-left: 1rem;
+}
+
+/* Footer */
+footer {
+  padding-top: 4rem !important;
+}
+
+.footer-top li {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.footer-top li a {
+  color: #fff;
+}
+
+.footer-top li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  padding: 1rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    padding-top: 6rem !important;
+  }
+
+  .heading-img {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
